@@ -23,6 +23,8 @@ function App() {
   {
     initTodo = JSON.parse(localStorage.getItem('todos'));
   }
+
+  // console.log(process.env);
   
   const onDelete = (todo)=>{
     //Deleting this way in raect will not work
